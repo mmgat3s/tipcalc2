@@ -10,10 +10,9 @@
 		9F47E8CB1C1E5E7000FFC107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E8CA1C1E5E7000FFC107 /* AppDelegate.swift */; };
 		9F47E8CD1C1E5E7000FFC107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E8CC1C1E5E7000FFC107 /* ViewController.swift */; };
 		9F47E8D01C1E5E7000FFC107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F47E8CE1C1E5E7000FFC107 /* Main.storyboard */; };
-		9F47E8D21C1E5E7000FFC107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F47E8D11C1E5E7000FFC107 /* Assets.xcassets */; };
-		9F47E8D51C1E5E7000FFC107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F47E8D31C1E5E7000FFC107 /* LaunchScreen.storyboard */; };
 		9F47E8E01C1E5E7000FFC107 /* tipcalc2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E8DF1C1E5E7000FFC107 /* tipcalc2Tests.swift */; };
 		9F47E8EB1C1E5E7000FFC107 /* tipcalc2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F47E8EA1C1E5E7000FFC107 /* tipcalc2UITests.swift */; };
+		9F927DA71C1E89F50030627E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F927DA61C1E89F50030627E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		9F47E8CA1C1E5E7000FFC107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F47E8CC1C1E5E7000FFC107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F47E8CF1C1E5E7000FFC107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F47E8D11C1E5E7000FFC107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9F47E8D41C1E5E7000FFC107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F47E8D61C1E5E7000FFC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F47E8DB1C1E5E7000FFC107 /* tipcalc2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalc2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F47E8DF1C1E5E7000FFC107 /* tipcalc2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalc2Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,7 @@
 		9F47E8E61C1E5E7000FFC107 /* tipcalc2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalc2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F47E8EA1C1E5E7000FFC107 /* tipcalc2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalc2UITests.swift; sourceTree = "<group>"; };
 		9F47E8EC1C1E5E7000FFC107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F927DA61C1E89F50030627E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +75,7 @@
 		9F47E8BE1C1E5E6F00FFC107 = {
 			isa = PBXGroup;
 			children = (
+				9F927DA61C1E89F50030627E /* SettingsViewController.swift */,
 				9F47E8C91C1E5E7000FFC107 /* tipcalc2 */,
 				9F47E8DE1C1E5E7000FFC107 /* tipcalc2Tests */,
 				9F47E8E91C1E5E7000FFC107 /* tipcalc2UITests */,
@@ -97,11 +96,9 @@
 		9F47E8C91C1E5E7000FFC107 /* tipcalc2 */ = {
 			isa = PBXGroup;
 			children = (
-				9F47E8CA1C1E5E7000FFC107 /* AppDelegate.swift */,
 				9F47E8CC1C1E5E7000FFC107 /* ViewController.swift */,
+				9F47E8CA1C1E5E7000FFC107 /* AppDelegate.swift */,
 				9F47E8CE1C1E5E7000FFC107 /* Main.storyboard */,
-				9F47E8D11C1E5E7000FFC107 /* Assets.xcassets */,
-				9F47E8D31C1E5E7000FFC107 /* LaunchScreen.storyboard */,
 				9F47E8D61C1E5E7000FFC107 /* Info.plist */,
 			);
 			path = tipcalc2;
@@ -229,8 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F47E8D51C1E5E7000FFC107 /* LaunchScreen.storyboard in Resources */,
-				9F47E8D21C1E5E7000FFC107 /* Assets.xcassets in Resources */,
 				9F47E8D01C1E5E7000FFC107 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +253,7 @@
 			files = (
 				9F47E8CD1C1E5E7000FFC107 /* ViewController.swift in Sources */,
 				9F47E8CB1C1E5E7000FFC107 /* AppDelegate.swift in Sources */,
+				9F927DA71C1E89F50030627E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +295,6 @@
 				9F47E8CF1C1E5E7000FFC107 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9F47E8D31C1E5E7000FFC107 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F47E8D41C1E5E7000FFC107 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +470,7 @@
 				9F47E8F11C1E5E7000FFC107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F47E8F21C1E5E7000FFC107 /* Build configuration list for PBXNativeTarget "tipcalc2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +479,7 @@
 				9F47E8F41C1E5E7000FFC107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F47E8F51C1E5E7000FFC107 /* Build configuration list for PBXNativeTarget "tipcalc2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +488,7 @@
 				9F47E8F71C1E5E7000FFC107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
